@@ -1,0 +1,69 @@
+.container {
+  background-image: url("https://th.bing.com/th/id/R.2abbc33ac220efebebdb2b347afbcf47?rik=qkPo55ca1kEwug&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f297996-space-Earth.jpg&ehk=LPVTPSuaysfspV3FWZYhRZiI6r1MuhDnjZGde%2fmsF54%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: to keep the background fixed while scrolling */
+  /* Add more styles as needed */
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: mediumvioletred; /* Gold color */
+  margin-bottom: 20px;
+}
+
+.planets-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planet-card {
+  width: 300px;
+  border: 2px solid #FFD700; /* Gold color */
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #000; /* Black background */
+  color: #FFF; /* White text */
+}
+
+.planet-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.planet-details {
+  font-size: 18px;
+}
+
+.label {
+  font-weight: bold;
+  color: #FFD700; /* Gold color */
+}
+
+.load-more-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.load-more-btn:active {
+  transform: translateY(2px);
+}
+
+ .load-more-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
